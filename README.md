@@ -1,68 +1,37 @@
-# + response.Name + 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# + response.Name + <br>
+'+licenseIcon+'
+1. [ Description ](##description)<br>
+2. [ Installation ](##installation)<br>
+3. [ Usage ](##usage)<br>
+4. [ Contributing ](##contributing)<br>
+5. [ Tests ](##tests)<br>
+6. [ License ](##license)<br>
+7. [ Questions ](##Questions)<br>
+<br>
 
-1. [ Description. ](##description)
-2. [ Usage tips. ](#usage)
-d
-d
-d
-
-d
-d
-d
-d
-d
-d
-d
-d
-d
-d
-
-d
-d
-d
-d
-
-d
-d
-d
-d
-d
-
-d
-d
-d
-d
-d
-
-d
-d
-ddd
-d
-d
-d
-d
-
-
-
-d
-d
-d
-d
-d
-dd
-
-d
-d
-d
-dd
-
-d
-d
-d
-
-
-## Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+## Description <br>
+'+response.description+'<br>
+## Installation<br>
+How should this be installed?
+' + response.install + '
+How should dependencies be installed?
+' + response.dependencies + '<br>
+## Usage<br>
+' + response.usage + '<br>
+## Contributing<br>
+' + response.contributions + '<br>
+## Tests<br>
+' + response.tests + '<br>
+## License<br>
+'+license+'<br>
+## Questions
+Who created this?<br>
+' + response.username + '<br>
+How should the creator be contacted?<br>
+' + response.contact + '<br>
+Github:<br>
+<a href='https://github.com/'>' + response.github + '</a><br>
+Email:<br>
+' + response.email + '
 
 
