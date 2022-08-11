@@ -1,37 +1,20 @@
-# + response.Name + <br>
-'+licenseIcon+'
-1. [ Description ](##description)<br>
-2. [ Installation ](##installation)<br>
-3. [ Usage ](##usage)<br>
-4. [ Contributing ](##contributing)<br>
-5. [ Tests ](##tests)<br>
-6. [ License ](##license)<br>
-7. [ Questions ](##Questions)<br>
-<br>
+# Readme Generator
 
-## Description <br>
-'+response.description+'<br>
-## Installation<br>
-How should this be installed?
-' + response.install + '
-How should dependencies be installed?
-' + response.dependencies + '<br>
-## Usage<br>
-' + response.usage + '<br>
-## Contributing<br>
-' + response.contributions + '<br>
-## Tests<br>
-' + response.tests + '<br>
-## License<br>
-'+license+'<br>
-## Questions
-Who created this?<br>
-' + response.username + '<br>
-How should the creator be contacted?<br>
-' + response.contact + '<br>
-Github:<br>
-<a href='https://github.com/'>' + response.github + '</a><br>
-Email:<br>
-' + response.email + '
+This project was completed for KU's coding boot camp assignment 9. 
 
+The goal of this project was to allow a user to create a readme via a command line application.
 
+## Check out the Project
+Check out the different aspects of the project below:
+
+- [Repository](https://github.com/johnathanmann/readme-gen)
+- [Video of deployed application](https://drive.google.com/file/d/1M7hiiKM15vv1QkupKRBdXBoGQ8ahq421/view)
+
+## Install
+Feel free to install using GitHubs recommended clone methods or by downloading the code and opening it in your preferred text editor.
+
+## Requirements
+To use the project all you need your favorite terminal program. A text editor could also eb helpful incase you want to change anything after generation.
+
+## Summary
+This command line application uses inquirer npm to create a readme containing all the pertinent information of a users project. Users can input as much information as desired, and they can leave out whatever they want. The readme will not only display information about the project but also a users chosen license.
